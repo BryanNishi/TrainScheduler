@@ -1,0 +1,28 @@
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h2,
+.jumbotron {
+    background-color: teal;
+    color: white;
+}
+
+.border {
+    color: teal;
+    background-color: rgb(255, 255, 255);
+    border-width: 3px !important;
+    border-color: teal !important;
+}
+
+form
+    {
+    margin: 10px;
+}
+
+.btn{
+    background-color: teal;
+}
