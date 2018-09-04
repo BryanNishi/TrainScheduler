@@ -8,20 +8,21 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Train Schedulerer</title>
 </head>
 
 <body>
     <div class="container">
         <div class="jumbotron">
-            <h1 class="text-center">The Bestest Most Perfectest Train Schedulerer</h1>
-            <h3 class="text-center">"Because, let's face it, you suck at catching trains."</h3>
-            <h4 class = "text-center"><span id = 'time'></span></h4>
+            <h1 class="text-center">The Most Perfectest Train Schedulerizer</h1>
+            <h3 class="text-center">"For Schedulerizing the Trains."</h3>
+            <br>
+            <h4 class="text-center"><span id='time'></span></h4>
         </div>
 
         <div class="border rounded" id="trainTable">
-            <h2>Current Train Schedule</h2>
+            <h2>Current train schedule</h2>
             <table class="table table-responsive-md table-striped">
                 <thead>
                     <tr id="current">
@@ -39,25 +40,25 @@
         </div>
         <br>
         <div class="form border rounded">
-            <h2>Add A Train</h2>
+            <h2>Add a train</h2>
             <form>
-                <div class="form-group">
+                <div class="form-group col-xs-11 col-md-6">
                     <label for="trainName">Train Name</label>
-                    <input type="text" class="form-control" id="nameInput" required>
+                    <input type="text" class="form-control" id="nameInput">
                 </div>
-                <div class="form-group">
+                <div class="form-group col-xs-11 col-md-6">
                     <label for="destination">Destination</label>
-                    <input type="text" class="form-control" id="destInput" required>
+                    <input type="text" class="form-control" id="destInput">
                 </div>
-                <div class="form-group">
-                    <label for="trainTime">First Train Time (HH:mm - Military Time)</label>
-                    <input type=time (HH:MM) class="form-control" id="timeInput" required>
+                <div class="form-group col-xs-11 col-md-6">
+                    <label for="trainTime">First Train Time (Military Time)</label>
+                    <input type=time (HH:MM) class="form-control" id="timeInput">
                 </div>
-                <div class="form-group">
+                <div class="form-group col-xs-11 col-md-6">
                     <label for="frequency">Frequency (min)</label>
-                    <input type="number" class="form-control" id="freqInput" required>
+                    <input type="number" class="form-control" id="freqInput">
                 </div>
-                <button type="submit" class="btn btn-primary" id="add-train">Submit</button>
+                <button type="submit" class="btn btn-outline-light" id="add-train">Submit</button>
             </form>
         </div>
 

@@ -1,0 +1,63 @@
+body {
+    background-image: url(../images/station.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: board;
+    
+}
+
+.jumbotron {
+    background-color: teal;
+    color: white;
+    padding: 15px;
+  
+}
+
+h2 {
+    font-size: 35px;
+    background-color: teal;
+    color: white;
+}
+
+@font-face {
+    font-family: board;
+    src: url(../style/scoreboard.ttf);
+}
+
+.border {
+    color: teal;
+    background-color: rgb(255, 255, 255);
+    border-width: 3px !important;
+    border-color: teal !important;
+}
+table {
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px black;
+}
+form
+{
+    background-image: url(../images/locomotive.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.btn {
+    background-color: #777;
+    
+    margin: 1em;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: white;
+    color: black;
+}
